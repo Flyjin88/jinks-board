@@ -1,0 +1,19 @@
+{
+  "name": "jinks-board",
+  "description": "Jinks Realty Trello-like board",
+  "repository": "https://github.com/flyjin88/jinks-board",
+  "logo": "http://jinksrealty.com/wp-content/uploads/2016/09/logo-1.png",
+  "keywords": ["productivity", "tool", "team", "kanban"],
+  "website": "http://jinksrealty.com",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/AdmitHub/meteor-buildpack-horse.git",
+    "ROOT_URL": {
+      "description": "IMPORTANT! Please replace <App Name> with the value provided on the top. This will be the full URL of your app.",
+      "value": "https://<jinks-board>.herokuapp.com"
+    }
+  },
+  "addons": [
+    "mongolab",
+    "logentries"
+  ]
+}

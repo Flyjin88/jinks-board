@@ -1,0 +1,25 @@
+{
+  "name": "jinks-board",
+  "version": "0.10.1",
+  "description": "Jinks Realty Trello-like board",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run --silent lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyjin88/jinks-board"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flyjin88"
+  },
+  "homepage": "https://www.jinksrealty.com",
+  "devDependencies": {
+    "eslint": "^2.0.0"
+  },
+  "dependencies": {
+    "xss": "^0.2.13"
+  }
+}
